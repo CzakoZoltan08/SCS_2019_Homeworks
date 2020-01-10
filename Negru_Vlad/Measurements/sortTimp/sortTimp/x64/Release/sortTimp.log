@@ -1,0 +1,105 @@
+﻿  Source.cpp
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(18): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(19): error C2065: 'pushad': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(21): error C2146: syntax error: missing ';' before identifier 'CPUID'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(20): error C2065: 'CPUID': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(22): error C2146: syntax error: missing ';' before identifier 'RDTSC'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(21): error C2065: 'RDTSC': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(22): error C2146: syntax error: missing ';' before identifier 'mov'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(22): error C2065: 'mov': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(22): error C2146: syntax error: missing ';' before identifier 'cycles_high1'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(22): error C2065: 'edx': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(23): error C2146: syntax error: missing ';' before identifier 'mov'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(23): error C2065: 'mov': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(23): error C2146: syntax error: missing ';' before identifier 'cycles_low1'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(23): error C2065: 'eax': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(25): error C2146: syntax error: missing ';' before identifier 'popad'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(24): error C2065: 'popad': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(26): error C2146: syntax error: missing ';' before identifier 'pushad'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(25): error C2065: 'pushad': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(27): error C2146: syntax error: missing ';' before identifier 'CPUID'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(26): error C2065: 'CPUID': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(28): error C2146: syntax error: missing ';' before identifier 'RDTSC'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(27): error C2065: 'RDTSC': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(29): error C2146: syntax error: missing ';' before identifier 'popad'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(28): error C2065: 'popad': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(30): error C2146: syntax error: missing ';' before identifier 'pushad'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(29): error C2065: 'pushad': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(31): error C2146: syntax error: missing ';' before identifier 'CPUID'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(30): error C2065: 'CPUID': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(32): error C2146: syntax error: missing ';' before identifier 'RDTSC'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(31): error C2065: 'RDTSC': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(32): error C2146: syntax error: missing ';' before identifier 'mov'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(32): error C2065: 'mov': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(32): error C2146: syntax error: missing ';' before identifier 'cycles_high1'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(32): error C2065: 'edx': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(33): error C2146: syntax error: missing ';' before identifier 'mov'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(33): error C2065: 'mov': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(33): error C2146: syntax error: missing ';' before identifier 'cycles_low1'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(33): error C2065: 'eax': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(35): error C2146: syntax error: missing ';' before identifier 'popad'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(34): error C2065: 'popad': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(36): error C2146: syntax error: missing ';' before identifier 'pushad'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(35): error C2065: 'pushad': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(37): error C2146: syntax error: missing ';' before identifier 'CPUID'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(36): error C2065: 'CPUID': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(38): error C2146: syntax error: missing ';' before identifier 'RDTSC'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(37): error C2065: 'RDTSC': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(39): error C2146: syntax error: missing ';' before identifier 'popad'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(38): error C2065: 'popad': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(40): error C2146: syntax error: missing ';' before identifier 'pushad'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(39): error C2065: 'pushad': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(41): error C2146: syntax error: missing ';' before identifier 'CPUID'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(40): error C2065: 'CPUID': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(42): error C2146: syntax error: missing ';' before identifier 'RDTSC'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(41): error C2065: 'RDTSC': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(42): error C2146: syntax error: missing ';' before identifier 'mov'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(42): error C2065: 'mov': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(42): error C2146: syntax error: missing ';' before identifier 'cycles_high1'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(42): error C2065: 'edx': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(43): error C2146: syntax error: missing ';' before identifier 'mov'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(43): error C2065: 'mov': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(43): error C2146: syntax error: missing ';' before identifier 'cycles_low1'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(43): error C2065: 'eax': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(45): error C2146: syntax error: missing ';' before identifier 'popad'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(44): error C2065: 'popad': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(46): error C2146: syntax error: missing ';' before identifier 'pushad'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(45): error C2065: 'pushad': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(47): error C2146: syntax error: missing ';' before identifier 'CPUID'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(46): error C2065: 'CPUID': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(48): error C2146: syntax error: missing ';' before identifier 'RDTSC'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(47): error C2065: 'RDTSC': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(48): error C2146: syntax error: missing ';' before identifier 'sub'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(48): error C2065: 'sub': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(48): error C2146: syntax error: missing ';' before identifier 'eax'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(48): error C2065: 'eax': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(49): error C2146: syntax error: missing ';' before identifier 'sbb'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(49): error C2065: 'sbb': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(49): error C2146: syntax error: missing ';' before identifier 'edx'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(49): error C2065: 'edx': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(50): error C2146: syntax error: missing ';' before identifier 'mov'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(50): error C2065: 'mov': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(50): error C2146: syntax error: missing ';' before identifier 'cpuid_low'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(50): error C2065: 'eax': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(51): error C2146: syntax error: missing ';' before identifier 'mov'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(51): error C2065: 'mov': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(51): error C2146: syntax error: missing ';' before identifier 'cpuid_high'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(51): error C2065: 'edx': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(54): error C2146: syntax error: missing ';' before identifier 'popad'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(53): error C2065: 'popad': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(55): error C2146: syntax error: missing ';' before identifier 'CPUID'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(54): error C2065: 'CPUID': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(55): error C2143: syntax error: missing ';' before '}'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(60): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(61): error C2065: 'pushad': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(63): error C2146: syntax error: missing ';' before identifier 'CPUID'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(62): error C2065: 'CPUID': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(64): error C2146: syntax error: missing ';' before identifier 'RDTSC'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(63): error C2065: 'RDTSC': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(64): error C2146: syntax error: missing ';' before identifier 'mov'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(64): error C2065: 'mov': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(64): error C2146: syntax error: missing ';' before identifier 'cycles_high1'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(64): error C2065: 'edx': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(65): error C2146: syntax error: missing ';' before identifier 'mov'
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(65): error C2065: 'mov': undeclared identifier
+d:\vlad\scs\lab2\sorttimp\sorttimp\source.cpp(65): fatal error C1003: error count exceeds 100; stopping compilation
