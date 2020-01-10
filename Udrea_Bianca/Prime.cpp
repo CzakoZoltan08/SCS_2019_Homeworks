@@ -14,13 +14,13 @@ DWORD WINAPI MyThreadFunction( LPVOID lpParam );
 
 int is_prime(unsigned long n)
 {
-	
+
 	for (unsigned long i=2; i<n; i++)
 	{
 		if(n%i == 0) return 0;
 	}
 	return 1;
-} 
+}
 
 int main(int argc, char* argv[])
 {
@@ -31,13 +31,13 @@ int main(int argc, char* argv[])
 	PMYDATA* pDataArray;
 
     if (argc != 3) {
-        
+
 		lEnd = 100000;
 		nThreads = 1;
-    } 
+    }
 	else {
-        
-       
+
+
 		lEnd = atol(argv[1]);
 		nThreads = atol(argv[2]);
 	}
@@ -45,21 +45,21 @@ int main(int argc, char* argv[])
 		dwThreadIdArray = new DWORD[nThreads];
 		pDataArray = new PMYDATA[nThreads];
 
-		
-		
-        
+
+
+
 		len = lEnd-1;
-		
+
 		numbers = new unsigned long[len];
-		
+
 		for (i=0; i<len; i++)
 		{
-			numbers[i] = i+2;	
+			numbers[i] = i+2;
 		}
 
 		for(i=0;i<nThreads;i++)
 		{
-			
+
 			pDataArray[i] = (PMYDATA) HeapAlloc(GetProcessHeap(), HEAP_ZERO_MEMORY,sizeof(MYDATA));
 			pDataArray[i]->len = len/nThreads;
 			pDataArray[i]->start = i*len/nThreads;
@@ -69,8 +69,8 @@ int main(int argc, char* argv[])
 			}
 			hThreadArray[i] = CreateThread(NULL, 0,MyThreadFunction,pDataArray[i],0,&dwThreadIdArray[i]);
 		}
-		
-		
+
+
 		WaitForMultipleObjects(nThreads, hThreadArray, TRUE, INFINITE);
 		for(int i=0; i<nThreads; i++)
 		{
@@ -78,12 +78,12 @@ int main(int argc, char* argv[])
 			if(pDataArray[i] != NULL)
 			{
 				HeapFree(GetProcessHeap(), 0, pDataArray[i]);
-				pDataArray[i] = NULL;    
+				pDataArray[i] = NULL;
 			}
 		}
 
-		
-		
+
+
 		for (i=0; i<len; i++)
 		{
 			if(numbers[i] > 0)
@@ -92,34 +92,34 @@ int main(int argc, char* argv[])
 			}
 		}
 
-		delete[] numbers; 
+		delete[] numbers;
 		delete[] hThreadArray;
 		delete[] dwThreadIdArray;
 		delete[] pDataArray;
 
 		failure = 0;
-    
-    return failure; 
+
+    return failure;
 }
 
-DWORD WINAPI MyThreadFunction( LPVOID lpParam ) 
+DWORD WINAPI MyThreadFunction( LPVOID lpParam )
 {
 	PMYDATA pDataArray;
 	pDataArray = (PMYDATA)lpParam;
 
-	
+
 	unsigned long k, mult, j;
 	for (k=pDataArray->start; k<pDataArray->start+pDataArray->len; k++)
 		{
 			if(is_prime(numbers[k]) == 1)
-			{				
-				
+			{
+
 				for (j=2*numbers[k]-2;j<pDataArray->len;j+=numbers[k])
 				{
 					numbers[j] = 0;
-					
-				}			
-				
+
+				}
+
 			}
 			else{numbers[k] = 0;}
 		}
